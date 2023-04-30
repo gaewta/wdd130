@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --primary-color: #396E94;
     --secondary-color: #E7C24F;
     --accent1-color: #FFF265;
     --accent2-color: #F3796E;
 
-    --heading-font: font-family 'Permanent Marker', serif;
-    --paragraph-font: font-family 'Roboto', serif;
+    --heading-font: "Russo One";
+    --paragraph-font: "Roboto";
 
     --nav-background-color: #FCFDFE;
     --nav-link-color: #396E94;
