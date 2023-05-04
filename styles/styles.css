@@ -30,6 +30,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20em;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); 
@@ -56,7 +57,7 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(248, 146, 29, 0.804);
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #ddd;
     color: #000
