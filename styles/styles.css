@@ -41,8 +41,9 @@ aside {
 }
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 20px;
+    left: 70px;
+    color:aliceblue;
 }
 aside img {
     width: 200px;
