@@ -26,6 +26,7 @@ article p {
     color: var(--accent1-color);
     font-family: "Roboto Condensed";
     padding: 25px;
+    background: rgba(40, 11, 205, 0.2)
 }
 
 p {
@@ -63,28 +64,29 @@ body {
     position: absolute;
     text-align: center;
     background: var(--primary-color);
-    top: 15px;
+    top: 0px;
     border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 1rem;
-    max-width: 1500rem;
-    width:100%
+    max-width: 80rem;
+    width: 100%
 }
 
 .hero article img {
     float: right;
     position: relative;
-    width: 170px;
+    width: 230px;
     height: auto;
+    top: 40px;
+    left: px;
 }
 
 article {
     top: 100px;
     position: absolute;
-    border: 1px solid rgba(40, 11, 205, 0.2);
-    padding: 1rem;
-    max-width: 1500rem;
-    width: 800px;
-    left: 300px;
+    padding: 2rem;
+    max-width: 100rem;
+    width: 900px;
+    left: 140px;
 }
 
 footer {
