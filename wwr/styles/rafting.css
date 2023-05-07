@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 :root {
     --primary-color: #396E94;
@@ -22,11 +21,9 @@ h1, h2 {
     font-family: "Russo One";
 }
 
-article p {
+h4 {
     color: var(--accent1-color);
-    font-family: "Roboto Condensed";
-    padding: 25px;
-    background: rgba(40, 11, 205, 0.2)
+    font-family: "Roboto";
 }
 
 p {
@@ -71,12 +68,20 @@ body {
     width: 100%
 }
 
+.hero h4 {
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    width: 100%;
+    background: rgba(40, 11, 205, 0.2)
+}
+
 .hero article img {
     float: right;
     position: relative;
-    width: 230px;
+    width: 240px;
     height: auto;
-    top: 40px;
+    top: 50px;
 }
 
 article {
