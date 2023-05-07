@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Russo One";
 }
 
-p1 {
+article p {
     color: var(--accent1-color);
     font-family: "Roboto Condensed";
     padding: 25px;
