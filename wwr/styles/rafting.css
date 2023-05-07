@@ -22,13 +22,6 @@ h1, h2 {
 }
 
 p {
-    color: var(--accent1-color);
-    font-family: "Roboto";
-    padding: 0;
-    margin: 1rem;
-}
-
-p {
     color: var(--accent2-color);
     font-family: "Roboto";
 }
@@ -73,22 +66,26 @@ body {
     text-align: left;
     padding: 30px;
     width: 100%;
-    background: rgba(40, 11, 205, 0.2)
+    color: var(--accent1-color);
+    font-family: "Roboto";
+    padding: 0;
 }
 
 .hero article img {
     float: right;
     position: relative;
-    width: 240px;
+    width: 300px;
     height: auto;
-    top: 50px;
+    top: auto;
 }
 
 article {
-    top: 100px;
     position: absolute;
-    padding: 2rem;
-    max-width: 100rem;
-    width: 900px;
-    left: 25px;
+    padding: 1em;
+    width: 70rem;
+    left: 80px;
+    background-color: rgba(40, 11, 205, 0.2);
+    color: var(--accent1-color);
+    text-align: left;
+    top: 110px;
 }
