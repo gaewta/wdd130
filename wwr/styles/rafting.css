@@ -8,7 +8,7 @@
     --accent2-color: #F3796E;
 
     --heading-font: "Russo One";
-    --paragraph-font: "Roboto Condensed","Roboto";
+    --paragraph-font: "Roboto";
 
     --nav-background-color: #FCFDFE;
     --nav-link-color: #396E94;
@@ -21,21 +21,21 @@ h1, h2 {
     font-family: "Russo One";
 }
 
-h4 {
+p {
     color: var(--accent1-color);
     font-family: "Roboto";
+    padding: 0;
+    margin: 1rem;
 }
 
 p {
     color: var(--accent2-color);
     font-family: "Roboto";
-    padding: 25px;
 }
 
 a { 
     display: block;
     text-decoration-line: none;
-    padding: 1rem;
 }
 
 body {
@@ -68,7 +68,7 @@ body {
     width: 100%
 }
 
-.hero h4 {
+.hero p {
     position: relative;
     text-align: left;
     padding: 30px;
@@ -90,5 +90,5 @@ article {
     padding: 2rem;
     max-width: 100rem;
     width: 900px;
-    left: 140px;
+    left: 25px;
 }
