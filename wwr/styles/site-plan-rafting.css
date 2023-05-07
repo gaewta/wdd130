@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --primary-color: #396E94;
-    --secondary-color: #E7C24F;
+    --secondary-color: #f5d36a;
     --accent1-color: #FFF265;
     --accent2-color: #F3796E;
 
@@ -12,7 +12,7 @@
     --nav-background-color: #FCFDFE;
     --nav-link-color: #396E94;
     --nav-hover-link-color: #FCFDFE;
-    --nav-hover-background-color: #E7C24F;
+    --nav-hover-background-color: #f5d36a;
 }
 
 body {

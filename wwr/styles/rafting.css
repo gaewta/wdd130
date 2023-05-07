@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --primary-color: #396E94;
+    --secondary-color: #f5d36a;
+    --accent1-color: #FFF265;
+    --accent2-color: #F3796E;
+
+    --heading-font: "Russo One";
+    --paragraph-font: "Roboto Condensed","Roboto";
+
+    --nav-background-color: #FCFDFE;
+    --nav-link-color: #396E94;
+    --nav-hover-link-color: #FCFDFE;
+    --nav-hover-background-color: #f5d36a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--secondary-color);
+    font-family: "Russo One";
+}
+
+p1 {
+    color: var(--accent1-color);
+    font-family: "Roboto Condensed";
+    padding: 25px;
+}
+
+p2, p3 {
+    color: var(--accent2-color);
+    font-family: "Roboto";
+    padding: 25px;
+}
+
+a { 
+    display: block;
+    text-decoration-line: none;
+    padding: 1rem;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1500px;
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    background: var(--primary-color);
+    top: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 1rem;
+    max-width: 1500rem;
+    width:100%
+}
+
+.hero article img {
+    float: right;
+    position: relative;
+    width: 170px;
+    height: auto;
+}
+
+article {
+    top: 100px;
+    position: absolute;
+    border: 1px solid rgba(40, 11, 205, 0.2);
+    padding: 1rem;
+    max-width: 1500rem;
+    width: 800px;
+    left: 300px;
+}
+
+footer {
+    width: px;
+}
