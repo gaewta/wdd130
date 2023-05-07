@@ -28,7 +28,7 @@ p1 {
     padding: 25px;
 }
 
-p2, p3 {
+p {
     color: var(--accent2-color);
     font-family: "Roboto";
     padding: 25px;
