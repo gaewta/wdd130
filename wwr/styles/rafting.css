@@ -16,6 +16,16 @@
     --nav-hover-background-color: #7DD3FF;
 }
 
+nav {
+    float: right;
+    background-color: var(--nav-hover-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
 h1, h2 {
     color: var(--secondary-color);
     font-family: "Russo One";
@@ -26,9 +36,19 @@ p {
     font-family: "Roboto";
 }
 
-a { 
+nav a { 
     display: block;
     text-decoration-line: none;
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
 }
 
 body {
@@ -48,16 +68,19 @@ body {
     width: 100%;
     height: auto;
     margin: 1rem;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero h1 {
     position: absolute;
     text-align: center;
     background: var(--primary-color);
-    top: 0px;
+    top: 7%;
     border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 1rem;
-    max-width: 80rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 100%
 }
 
@@ -83,9 +106,10 @@ article {
     position: absolute;
     padding: 1em;
     width: 70rem;
-    left: 80px;
+    left: 50%;
     background-color: rgba(40, 11, 205, 0.2);
-    color: var(--accent1-color);
     text-align: left;
-    top: 110px;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
 }
