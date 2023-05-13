@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --primary-color: #5386f3;
+    --primary-color: #2D4C8F;
     --secondary-color: #FFBE62;
     --accent1-color: #FFF265;
-    --accent2-color: #F3796E;
+    --accent2-color: #AE554D;
 
     --heading-font: "Russo One";
     --paragraph-font: "Roboto";
 
     --nav-background-color: #FCFDFE;
-    --nav-link-color: #396E94;
+    --nav-link-color: #2D4C8F;
     --nav-hover-link-color: #FCFDFE;
     --nav-hover-background-color: #FFBE62;
 }
