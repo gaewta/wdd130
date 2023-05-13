@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --primary-color: #2D4C8F;
-    --secondary-color: #FFBE62;
+    --primary-color: #7DD3FF;
+    --secondary-color: #0043AE;
     --accent1-color: #FFF265;
-    --accent2-color: #AE554D;
+    --accent2-color: #FF5F01;
 
     --heading-font: "Russo One";
     --paragraph-font: "Roboto";
 
     --nav-background-color: #FCFDFE;
-    --nav-link-color: #2D4C8F;
+    --nav-link-color: #0043AE;
     --nav-hover-link-color: #FCFDFE;
-    --nav-hover-background-color: #FFBE62;
+    --nav-hover-background-color: #7DD3FF;
 }
 
 h1, h2 {
