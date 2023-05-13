@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #396E94;
-    --secondary-color: #f5d36a;
+    --secondary-color: #FFBE62;
     --accent1-color: #FFF265;
     --accent2-color: #F3796E;
 
@@ -13,7 +13,7 @@
     --nav-background-color: #FCFDFE;
     --nav-link-color: #396E94;
     --nav-hover-link-color: #FCFDFE;
-    --nav-hover-background-color: #f5d36a;
+    --nav-hover-background-color: #FFBE62;
 }
 
 h1, h2 {
