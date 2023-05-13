@@ -81,7 +81,7 @@ body {
     padding: 1rem;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%
+    width: 98%
 }
 
 .hero p {
@@ -105,7 +105,7 @@ body {
 article {
     position: absolute;
     padding: 1em;
-    width: 70rem;
+    width: 88%;
     left: 50%;
     background-color: rgba(40, 11, 205, 0.2);
     text-align: left;
