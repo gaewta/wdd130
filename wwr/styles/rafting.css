@@ -105,11 +105,11 @@ body {
 article {
     position: absolute;
     padding: 1em;
-    width: 88%;
+    width: 85%;
     left: 50%;
     background-color: rgba(40, 11, 205, 0.2);
     text-align: left;
-    top: 35%;
+    top: 40%;
     transform: translate(-50%, -50%);
     font-size: 110%;
 }
