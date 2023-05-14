@@ -132,8 +132,12 @@ article {
     font-size: 110%;
 }
 
+section {
+    background-color: #FCFDFE;
+}
+
 section img {
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
     width: 170px;
 }
@@ -151,9 +155,13 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     margin: 1rem;
     gap: 270px;
+}
+
+footer p {
+    color: #0043AE;
 }
 
 .sociallinks img {
