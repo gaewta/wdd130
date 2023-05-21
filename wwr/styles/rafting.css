@@ -274,7 +274,19 @@ button:hover {
     align-items: center;
     gap: 10px;
 }
-  
+
+.adventure img {
+    width: 230px;
+    display: inline-block
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
 figcaption {
     caption-side: bottom;
 }
