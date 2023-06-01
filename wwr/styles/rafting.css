@@ -481,3 +481,8 @@ main section img {
     background-color: #9d9c88;
     color: #fcfbfb;
 }
+.mountains {
+    grid-column : 2 / 7;
+    grid-row : 8 / 13;
+    box-shadow : 5px 5px 10px #6f7364;
+    }
